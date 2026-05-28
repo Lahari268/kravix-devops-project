@@ -12,13 +12,13 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t yourdockerhub/kravix-project:v1 .'
+                sh 'docker build -t laharikalva/kravix-project:v1 .'
             }
         }
 
         stage('Push Docker Image') {
             steps {
-                sh 'docker push yourdockerhub/kravix-project:v1'
+                sh 'docker push laharikalva/kravix-project:v1'
             }
         }
 
