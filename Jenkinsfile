@@ -6,7 +6,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/your-repo.git'
+               git 'https://github.com/Lahari268/kravix-devops-project.git'
             }
         }
 
